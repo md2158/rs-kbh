@@ -17,3 +17,11 @@ swiperKbh.on('transitionStart', function () {
     let kbhSliderLength = swiperKbh.slides.length;
     document.getElementById("kbhSliderIndex").innerHTML = parseInt(kbhSliderCurrent) + 1 +'/'+kbhSliderLength;
 });
+if(window.screen.width < 991){
+    document.getElementById('scrollBannerNext').addEventListener('click', function (){
+        document.getElementById('kbhBanners').scrollLeft += 100;
+    });
+    document.getElementById('scrollBannerPrev').addEventListener('click', function (){
+        document.getElementById('kbhBanners').scrollLeft -= 100;
+    });
+}
