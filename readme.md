@@ -1,4 +1,4 @@
-<h3>Sany - Rossait</h3>
+<h3>KBH - Rossait</h3>
 <hr/>
 <p>Gulp gurmak üçin:</p>
 <code>npm i</code><br/>

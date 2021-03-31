@@ -6,6 +6,9 @@
 //@import "_parts/news";
 .main {
   height: 100vh;
+  @media (max-height: 700px) {
+    height: 560px;
+  }
 }
 body {
   font-family: 'EtelkaLight', sans-serif;
