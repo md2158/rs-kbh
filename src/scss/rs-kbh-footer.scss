@@ -1,0 +1,58 @@
+footer {
+  position: fixed;
+  top: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+.rs-kbh-footer {
+  background-color: #0d386e;
+  padding: 20px 0;
+  &__container {
+    position: relative;
+    width: 1600px;
+    height: 100%;
+    padding: 0 15px;
+    margin: auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__logo {
+
+  }
+  &__logo-link {
+    margin-right: 60px;
+    &:last-of-type {
+      margin-right: 0;
+    }
+    img {
+      height: 30px;
+    }
+  }
+  &__contacts {
+    color: #ffffff;
+    text-align: right;
+  }
+  &__contact-info {
+    margin-left: 32px;
+    i {
+      color: #c62839;
+    }
+  }
+  &__contact-email {
+    text-decoration: underline;
+  }
+  &__col {
+    display: flex;
+    font-size: 12px;
+  }
+  &__col-2 {
+    font-size: 12px;
+    img {
+      margin-top: -4px;
+    }
+  }
+}

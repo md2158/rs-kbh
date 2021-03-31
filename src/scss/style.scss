@@ -1,0 +1,22 @@
+//@import "trash/mixins";
+@import "_parts/normalize";
+//@import "_parts/common";
+//@import "_parts/header";
+//@import "_parts/slider";
+//@import "_parts/news";
+.main {
+  height: 100vh;
+}
+body {
+  font-family: 'EtelkaLight', sans-serif;
+}
+@font-face {
+  font-family: "EtelkaLight";
+  src: local("EtelkaLight"),
+  url('../lib/font/EtelkaLight.otf') format("truetype");
+}
+@font-face {
+  font-family: "EtelkaMedium";
+  src: local("EtelkaMedium"),
+  url('../lib/font/EtelkaMedium.otf.otf') format("truetype");
+}

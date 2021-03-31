@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72.08" height="76.67" viewBox="0 0 72.08 76.67">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f24942;
+      }
+    </style>
+  </defs>
+  <title>button_arrow_circled</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Isolation_Mode" data-name="Isolation Mode">
+      <g>
+        <path class="cls-1" d="M69.15,56.5a35.79,35.79,0,1,1-.93-37.83h3a38.33,38.33,0,1,0,.86,37.83Z"/>
+        <polygon class="cls-1" points="37.48 44.57 44.28 38.33 37.48 32.1 36.12 33.57 40.23 37.33 27.8 37.33 27.8 39.33 40.23 39.33 36.12 43.1 37.48 44.57"/>
+      </g>
+    </g>
+  </g>
+</svg>
