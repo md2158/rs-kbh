@@ -6,8 +6,9 @@
 //@import "_parts/news";
 .main {
   height: 100vh;
+  //min-height: 1000px;
   @media (max-height: 700px) {
-    height: 560px;
+    height: 620px;
   }
 }
 body {
@@ -21,5 +22,5 @@ body {
 @font-face {
   font-family: "EtelkaMedium";
   src: local("EtelkaMedium"),
-  url('../lib/font/EtelkaMedium.otf.otf') format("truetype");
+  url('../lib/font/EtelkaMedium.otf') format("truetype");
 }

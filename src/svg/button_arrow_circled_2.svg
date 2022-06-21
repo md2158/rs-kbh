@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="76.54" height="76.12" viewBox="0 0 76.54 76.12">
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <circle class="circle-main" cx="38.48" cy="38.06" r="38.06"/>
+        <path class="circle-line" d="M68.67,56.09a35.54,35.54,0,1,1-.93-37.56h3a38,38,0,1,0,.86,37.56Z"/>
+        <polygon class="circle-arrow" points="37.22 44.24 43.98 38.05 37.22 31.86 35.87 33.32 39.95 37.06 27.61 37.06 27.61 39.04 39.95 39.04 35.87 42.78 37.22 44.24"/>
+      </g>
+    </g>
+  </g>
+</svg>

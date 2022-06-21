@@ -133,7 +133,10 @@ footer {
     }
   }
   &__contact-email {
-    text-decoration: underline;
+    //text-decoration: underline;
+    span {
+      text-decoration: underline;
+    }
   }
   &__col {
     display: flex;

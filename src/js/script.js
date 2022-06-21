@@ -16,3 +16,15 @@ testWebP(function (support) {
         document.querySelector('body').classList.add('no-webp');
     }
 });
+// On orientation changed reload page
+window.addEventListener('orientationchange', function() { location.reload(); }, false);
+// On screen resize reload page
+var windowWidthForResize = window.screen.width;
+var windowHeightForResize = window.screen.height;
+console.log(windowWidthForResize+'--'+windowHeightForResize);
+window.addEventListener('resize', function (){
+    var newWindowWidth = window.screen.width;
+    if( Math.abs(windowWidthForResize - newWindowWidth) > 10 ){
+        location.reload();
+    }
+});
